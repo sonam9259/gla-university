@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact - GLA University</title>
+<style>
+body{margin:0;font-family:Arial;background:#f2f5f9;}
+.navbar{background:#081b29;padding:15px;text-align:center;position:sticky;top:0;}
+.navbar a{color:white;text-decoration:none;font-weight:bold;margin:0 12px;}
+.header{background:#081b29;color:white;text-align:center;padding:30px;}
+.container{max-width:900px;margin:auto;padding:20px;display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+.box{background:white;border-radius:15px;padding:20px;box-shadow:0 5px 15px rgba(0,0,0,0.1);}
+.box h2{color:#081b29;border-left:6px solid #ffcc00;padding-left:10px;margin-top:0;}
+.info-line{margin:12px 0;font-size:14px;}
+.info-line b{color:#081b29;}
+input, textarea{width:100%;padding:10px;margin:8px 0;border:1px solid #ccc;border-radius:8px;box-sizing:border-box;}
+button{background:#081b29;color:white;padding:12px 20px;border:none;border-radius:25px;font-weight:bold;cursor:pointer;width:100%;}
+button:hover{background:#ffcc00;color:#081b29;}
+.map{max-width:900px;margin:auto;padding:0 20px 20px 20px;}
+.map-box{background:white;border-radius:15px;padding:15px;box-shadow:0 5px 15px rgba(0,0,0,0.1);text-align:center;}
+@media(max-width:700px){.container{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+<a href="index.html">Home</a>
+<a href="teachers.html">Teachers</a>
+<a href="syllabus.html">Syllabus</a>
+<a href="courses.html">Courses</a>
+<a href="fees.html">Fees Details</a>
+<a href="contact.html">Contact</a>
+</div>
+
+<div class="header">
+<h1>Contact Us</h1>
+<p>GLA University Mathura</p>
+</div>
+
+<div class="container">
+
+<div class="box">
+<h2>University Address</h2>
+<div class="info-line"><b>Address:</b> 17km Stone, NH-2, Mathura-Delhi Road, Mathura, UP - 281406</div>
+<div class="info-line"><b>Phone:</b> +91 5662 250900</div>
+<div class="info-line"><b>Admission Helpline:</b> +91 9927 123</div>
+<div class="info-line"><b>Email:</b> admissions@gla.ac.in</div>
+<div class="info-line"><b>Website:</b> www.gla.ac.in</div>
+<div class="info-line"><b>Timings:</b> 9:00 AM to 5:00 PM (Mon to Sat)</div>
+
+<br>
+<h2>Your Details</h2>
+<div class="info-line"><b>Student Name:</b> B.Tech CSE 1st Year</div>
+<div class="info-line"><b>Project:</b> GLA University Website Project</div>
+<div class="info-line"><b>Subject:</b> Web Development - HTML Project</div>
+</div>
+
+<div class="box">
+<h2>Send Message</h2>
+<form onsubmit="alert('Thank you! Your message has been sent.'); return false;">
+<input type="text" placeholder="Your Full Name" required>
+<input type="email" placeholder="Your Email Address" required>
+<input type="text" placeholder="Your Mobile Number" required>
+<textarea rows="5" placeholder="Your Message or Query" required></textarea>
+<button type="submit">Send Message</button>
+</form>
+</div>
+
+</div>
+
+<div class="map">
+<div class="map-box">
+<h3 style="color:#081b29;">Location Map</h3>
+<p style="font-size:14px;color:#555;">GLA University is located on NH-2, 17km from Mathura city. Easily reachable by bus and auto.</p>
+<p><b>Google Map Link:</b> Search "GLA University Mathura" on Google Maps</p>
+</div>
+</div>
+
+</body>
+</html>
